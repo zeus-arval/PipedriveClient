@@ -7,13 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A575EC4C2B0FF4EF005FE430 /* PeopleListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575EC4B2B0FF4EF005FE430 /* PeopleListScreen.swift */; };
+		A575ECA12B111D15005FE430 /* PersonDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECA02B111D15005FE430 /* PersonDetailsScreen.swift */; };
+		A575ECA32B111D79005FE430 /* InitialsCircleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECA22B111D79005FE430 /* InitialsCircleComponent.swift */; };
+		A575ECA52B1123AA005FE430 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECA42B1123AA005FE430 /* Person.swift */; };
+		A575ECB22B1227A8005FE430 /* PeopleOrderedListComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECB12B1227A8005FE430 /* PeopleOrderedListComponent.swift */; };
+		A575ECB62B123626005FE430 /* PersonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECB52B123626005FE430 /* PersonRow.swift */; };
+		A575ECB82B124EAD005FE430 /* WorkDataComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECB72B124EAD005FE430 /* WorkDataComponent.swift */; };
+		A575ECBA2B1260E4005FE430 /* PersonalDetailsHeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECB92B1260E4005FE430 /* PersonalDetailsHeaderComponent.swift */; };
+		A575ECBC2B12652C005FE430 /* PersonalDetailComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECBB2B12652C005FE430 /* PersonalDetailComponent.swift */; };
+		A575ECBF2B126624005FE430 /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECBE2B126624005FE430 /* ColorUtils.swift */; };
+		A575ECC22B126933005FE430 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A575ECC42B126933005FE430 /* Localizable.strings */; };
+		A575ECC62B126A31005FE430 /* Localizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECC52B126A31005FE430 /* Localizer.swift */; };
+		A575ECCD2B129BB0005FE430 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECCC2B129BB0005FE430 /* AppState.swift */; };
+		A575ECD02B129EDB005FE430 /* DependencyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECCF2B129EDB005FE430 /* DependencyInjector.swift */; };
+		A575ECD22B129FEE005FE430 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECD12B129FEE005FE430 /* AppEnvironment.swift */; };
+		A575ECD42B12A2E7005FE430 /* PeopleWebRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECD32B12A2E7005FE430 /* PeopleWebRepository.swift */; };
+		A575ECD72B12A320005FE430 /* WebRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECD62B12A320005FE430 /* WebRepository.swift */; };
+		A575ECD92B12A48C005FE430 /* APICallMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECD82B12A48C005FE430 /* APICallMetadata.swift */; };
+		A575ECDB2B12AB93005FE430 /* NetworkingHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECDA2B12AB93005FE430 /* NetworkingHelpers.swift */; };
+		A575ECDF2B136E50005FE430 /* PeopleDBRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECDE2B136E50005FE430 /* PeopleDBRepository.swift */; };
+		A575ECE12B136E6C005FE430 /* DBRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECE02B136E6C005FE430 /* DBRepository.swift */; };
+		A575ECE32B1370AA005FE430 /* PeopleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECE22B1370AA005FE430 /* PeopleInteractor.swift */; };
+		A575ECE52B1372DD005FE430 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECE42B1372DD005FE430 /* Store.swift */; };
+		A575ECE72B1373D7005FE430 /* CancellableSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECE62B1373D7005FE430 /* CancellableSet.swift */; };
+		A575ECE92B13757C005FE430 /* LoadableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECE82B13757C005FE430 /* LoadableObject.swift */; };
+		A575ECED2B1381C3005FE430 /* CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECEC2B1381C3005FE430 /* CoreDataHelpers.swift */; };
+		A575ECF22B13858F005FE430 /* PersistentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECF12B13858F005FE430 /* PersistentStore.swift */; };
+		A575ECF42B138A60005FE430 /* LazyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECF32B138A60005FE430 /* LazyList.swift */; };
+		A575ECF62B138C6C005FE430 /* Models+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECF52B138C6C005FE430 /* Models+CoreData.swift */; };
+		A575ECF92B139A6F005FE430 /* ApiMetaStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECF82B139A6F005FE430 /* ApiMetaStorage.swift */; };
+		A575ECFC2B13A261005FE430 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = A575ECFB2B13A261005FE430 /* SwiftyJSON */; };
+		A575ED002B13BECC005FE430 /* Interactors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ECFF2B13BECC005FE430 /* Interactors.swift */; };
+		A575ED032B13C83F005FE430 /* RootViewAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ED022B13C83F005FE430 /* RootViewAppearance.swift */; };
+		A575ED052B13D4F3005FE430 /* MockedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ED042B13D4F3005FE430 /* MockedData.swift */; };
+		A575ED092B13E62C005FE430 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ED082B13E62C005FE430 /* Helpers.swift */; };
+		A575ED102B13EE90005FE430 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575ED0F2B13EE90005FE430 /* ActivityIndicatorView.swift */; };
+		A575ED162B140899005FE430 /* db_model_v1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A575ED142B140899005FE430 /* db_model_v1.xcdatamodeld */; };
 		A5CF38752B0FCEC80063DA95 /* PipedriveClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CF38742B0FCEC80063DA95 /* PipedriveClientApp.swift */; };
 		A5CF38772B0FCEC80063DA95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CF38762B0FCEC80063DA95 /* ContentView.swift */; };
 		A5CF38792B0FCECA0063DA95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5CF38782B0FCECA0063DA95 /* Assets.xcassets */; };
 		A5CF387C2B0FCECA0063DA95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5CF387B2B0FCECA0063DA95 /* Preview Assets.xcassets */; };
-		A5CF38862B0FCECA0063DA95 /* PipedriveClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CF38852B0FCECA0063DA95 /* PipedriveClientTests.swift */; };
-		A5CF38902B0FCECA0063DA95 /* PipedriveClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CF388F2B0FCECA0063DA95 /* PipedriveClientUITests.swift */; };
-		A5CF38922B0FCECA0063DA95 /* PipedriveClientUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CF38912B0FCECA0063DA95 /* PipedriveClientUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +68,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A575EC4B2B0FF4EF005FE430 /* PeopleListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListScreen.swift; sourceTree = "<group>"; };
+		A575ECA02B111D15005FE430 /* PersonDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsScreen.swift; sourceTree = "<group>"; };
+		A575ECA22B111D79005FE430 /* InitialsCircleComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialsCircleComponent.swift; sourceTree = "<group>"; };
+		A575ECA42B1123AA005FE430 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		A575ECB12B1227A8005FE430 /* PeopleOrderedListComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleOrderedListComponent.swift; sourceTree = "<group>"; };
+		A575ECB52B123626005FE430 /* PersonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRow.swift; sourceTree = "<group>"; };
+		A575ECB72B124EAD005FE430 /* WorkDataComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkDataComponent.swift; sourceTree = "<group>"; };
+		A575ECB92B1260E4005FE430 /* PersonalDetailsHeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDetailsHeaderComponent.swift; sourceTree = "<group>"; };
+		A575ECBB2B12652C005FE430 /* PersonalDetailComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDetailComponent.swift; sourceTree = "<group>"; };
+		A575ECBE2B126624005FE430 /* ColorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
+		A575ECC32B126933005FE430 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A575ECC52B126A31005FE430 /* Localizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizer.swift; sourceTree = "<group>"; };
+		A575ECCC2B129BB0005FE430 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		A575ECCF2B129EDB005FE430 /* DependencyInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjector.swift; sourceTree = "<group>"; };
+		A575ECD12B129FEE005FE430 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		A575ECD32B12A2E7005FE430 /* PeopleWebRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleWebRepository.swift; sourceTree = "<group>"; };
+		A575ECD62B12A320005FE430 /* WebRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRepository.swift; sourceTree = "<group>"; };
+		A575ECD82B12A48C005FE430 /* APICallMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallMetadata.swift; sourceTree = "<group>"; };
+		A575ECDA2B12AB93005FE430 /* NetworkingHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingHelpers.swift; sourceTree = "<group>"; };
+		A575ECDE2B136E50005FE430 /* PeopleDBRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDBRepository.swift; sourceTree = "<group>"; };
+		A575ECE02B136E6C005FE430 /* DBRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBRepository.swift; sourceTree = "<group>"; };
+		A575ECE22B1370AA005FE430 /* PeopleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleInteractor.swift; sourceTree = "<group>"; };
+		A575ECE42B1372DD005FE430 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		A575ECE62B1373D7005FE430 /* CancellableSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellableSet.swift; sourceTree = "<group>"; };
+		A575ECE82B13757C005FE430 /* LoadableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadableObject.swift; sourceTree = "<group>"; };
+		A575ECEC2B1381C3005FE430 /* CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelpers.swift; sourceTree = "<group>"; };
+		A575ECF12B13858F005FE430 /* PersistentStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentStore.swift; sourceTree = "<group>"; };
+		A575ECF32B138A60005FE430 /* LazyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyList.swift; sourceTree = "<group>"; };
+		A575ECF52B138C6C005FE430 /* Models+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models+CoreData.swift"; sourceTree = "<group>"; };
+		A575ECF82B139A6F005FE430 /* ApiMetaStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiMetaStorage.swift; sourceTree = "<group>"; };
+		A575ECFF2B13BECC005FE430 /* Interactors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactors.swift; sourceTree = "<group>"; };
+		A575ED022B13C83F005FE430 /* RootViewAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewAppearance.swift; sourceTree = "<group>"; };
+		A575ED042B13D4F3005FE430 /* MockedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockedData.swift; sourceTree = "<group>"; };
+		A575ED082B13E62C005FE430 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		A575ED0F2B13EE90005FE430 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		A575ED152B140899005FE430 /* db_model_v1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = db_model_v1.xcdatamodel; sourceTree = "<group>"; };
 		A5CF38712B0FCEC80063DA95 /* PipedriveClientApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PipedriveClientApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CF38742B0FCEC80063DA95 /* PipedriveClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipedriveClientApp.swift; sourceTree = "<group>"; };
 		A5CF38762B0FCEC80063DA95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A5CF38782B0FCECA0063DA95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5CF387B2B0FCECA0063DA95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A5CF38812B0FCECA0063DA95 /* PipedriveClientAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PipedriveClientAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5CF38852B0FCECA0063DA95 /* PipedriveClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipedriveClientTests.swift; sourceTree = "<group>"; };
 		A5CF388B2B0FCECA0063DA95 /* PipedriveClientAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PipedriveClientAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5CF388F2B0FCECA0063DA95 /* PipedriveClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipedriveClientUITests.swift; sourceTree = "<group>"; };
-		A5CF38912B0FCECA0063DA95 /* PipedriveClientUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipedriveClientUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A575ECFC2B13A261005FE430 /* SwiftyJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,12 +139,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A575ECA82B116BC6005FE430 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				A575ECA42B1123AA005FE430 /* Person.swift */,
+				A575ECF52B138C6C005FE430 /* Models+CoreData.swift */,
+				A575ED042B13D4F3005FE430 /* MockedData.swift */,
+			);
+			path = Person;
+			sourceTree = "<group>";
+		};
+		A575ECB42B1235E7005FE430 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				A575ECA22B111D79005FE430 /* InitialsCircleComponent.swift */,
+				A575ECB12B1227A8005FE430 /* PeopleOrderedListComponent.swift */,
+				A575ECB52B123626005FE430 /* PersonRow.swift */,
+				A575ECB72B124EAD005FE430 /* WorkDataComponent.swift */,
+				A575ECB92B1260E4005FE430 /* PersonalDetailsHeaderComponent.swift */,
+				A575ECBB2B12652C005FE430 /* PersonalDetailComponent.swift */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		A575ECD52B12A316005FE430 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A575ECD62B12A320005FE430 /* WebRepository.swift */,
+				A575ECE02B136E6C005FE430 /* DBRepository.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A575ECEA2B137CEC005FE430 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				A575ECD32B12A2E7005FE430 /* PeopleWebRepository.swift */,
+				A575ECDE2B136E50005FE430 /* PeopleDBRepository.swift */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		A575ECEB2B138072005FE430 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				A575ECF12B13858F005FE430 /* PersistentStore.swift */,
+				A575ECEC2B1381C3005FE430 /* CoreDataHelpers.swift */,
+				A575ED142B140899005FE430 /* db_model_v1.xcdatamodeld */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		A575ED012B13C82B005FE430 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A5CF38762B0FCEC80063DA95 /* ContentView.swift */,
+				A575ED022B13C83F005FE430 /* RootViewAppearance.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		A5CF38682B0FCEC80063DA95 = {
 			isa = PBXGroup;
 			children = (
 				A5CF38732B0FCEC80063DA95 /* PipedriveClient */,
-				A5CF38842B0FCECA0063DA95 /* PipedriveClientTests */,
-				A5CF388E2B0FCECA0063DA95 /* PipedriveClientUITests */,
 				A5CF38722B0FCEC80063DA95 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +220,7 @@
 		A5CF38732B0FCEC80063DA95 /* PipedriveClient */ = {
 			isa = PBXGroup;
 			children = (
+				A575ECEB2B138072005FE430 /* Persistence */,
 				A5CF38A82B0FD3D10063DA95 /* Interactors */,
 				A5CF38A72B0FD3C30063DA95 /* Models */,
 				A5CF38A62B0FD3B80063DA95 /* Repositories */,
@@ -101,8 +228,8 @@
 				A5CF38A42B0FD3730063DA95 /* Injections */,
 				A5CF38A32B0FD3650063DA95 /* System */,
 				A5CF38A02B0FD3250063DA95 /* Resources */,
-				A5CF389E2B0FD2E90063DA95 /* UI */,
 				A5CF387A2B0FCECA0063DA95 /* Preview Content */,
+				A5CF389E2B0FD2E90063DA95 /* UI */,
 			);
 			path = PipedriveClient;
 			sourceTree = "<group>";
@@ -115,30 +242,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A5CF38842B0FCECA0063DA95 /* PipedriveClientTests */ = {
-			isa = PBXGroup;
-			children = (
-				A5CF38852B0FCECA0063DA95 /* PipedriveClientTests.swift */,
-			);
-			path = PipedriveClientTests;
-			sourceTree = "<group>";
-		};
-		A5CF388E2B0FCECA0063DA95 /* PipedriveClientUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A5CF388F2B0FCECA0063DA95 /* PipedriveClientUITests.swift */,
-				A5CF38912B0FCECA0063DA95 /* PipedriveClientUITestsLaunchTests.swift */,
-			);
-			path = PipedriveClientUITests;
-			sourceTree = "<group>";
-		};
 		A5CF389E2B0FD2E90063DA95 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				A5CF38742B0FCEC80063DA95 /* PipedriveClientApp.swift */,
-				A5CF38762B0FCEC80063DA95 /* ContentView.swift */,
+				A575ED012B13C82B005FE430 /* Common */,
 				A5CF38A22B0FD3520063DA95 /* Components */,
-				A5CF38A12B0FD34D0063DA95 /* Screens */,
+				A575ED0F2B13EE90005FE430 /* ActivityIndicatorView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -147,6 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				A5CF38782B0FCECA0063DA95 /* Assets.xcassets */,
+				A575ECC42B126933005FE430 /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -154,6 +264,8 @@
 		A5CF38A12B0FD34D0063DA95 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				A575EC4B2B0FF4EF005FE430 /* PeopleListScreen.swift */,
+				A575ECA02B111D15005FE430 /* PersonDetailsScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -161,6 +273,8 @@
 		A5CF38A22B0FD3520063DA95 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				A5CF38A12B0FD34D0063DA95 /* Screens */,
+				A575ECB42B1235E7005FE430 /* People */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -168,6 +282,8 @@
 		A5CF38A32B0FD3650063DA95 /* System */ = {
 			isa = PBXGroup;
 			children = (
+				A5CF38742B0FCEC80063DA95 /* PipedriveClientApp.swift */,
+				A575ECD12B129FEE005FE430 /* AppEnvironment.swift */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -175,6 +291,9 @@
 		A5CF38A42B0FD3730063DA95 /* Injections */ = {
 			isa = PBXGroup;
 			children = (
+				A575ECCC2B129BB0005FE430 /* AppState.swift */,
+				A575ECCF2B129EDB005FE430 /* DependencyInjector.swift */,
+				A575ECFF2B13BECC005FE430 /* Interactors.swift */,
 			);
 			path = Injections;
 			sourceTree = "<group>";
@@ -182,6 +301,16 @@
 		A5CF38A52B0FD3AF0063DA95 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				A575ECBE2B126624005FE430 /* ColorUtils.swift */,
+				A575ECC52B126A31005FE430 /* Localizer.swift */,
+				A575ECD82B12A48C005FE430 /* APICallMetadata.swift */,
+				A575ECDA2B12AB93005FE430 /* NetworkingHelpers.swift */,
+				A575ECE42B1372DD005FE430 /* Store.swift */,
+				A575ECE62B1373D7005FE430 /* CancellableSet.swift */,
+				A575ECE82B13757C005FE430 /* LoadableObject.swift */,
+				A575ECF32B138A60005FE430 /* LazyList.swift */,
+				A575ECF82B139A6F005FE430 /* ApiMetaStorage.swift */,
+				A575ED082B13E62C005FE430 /* Helpers.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -189,6 +318,8 @@
 		A5CF38A62B0FD3B80063DA95 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				A575ECEA2B137CEC005FE430 /* People */,
+				A575ECD52B12A316005FE430 /* Common */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -196,6 +327,7 @@
 		A5CF38A72B0FD3C30063DA95 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A575ECA82B116BC6005FE430 /* Person */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -203,6 +335,7 @@
 		A5CF38A82B0FD3D10063DA95 /* Interactors */ = {
 			isa = PBXGroup;
 			children = (
+				A575ECE22B1370AA005FE430 /* PeopleInteractor.swift */,
 			);
 			path = Interactors;
 			sourceTree = "<group>";
@@ -223,6 +356,9 @@
 			dependencies = (
 			);
 			name = PipedriveClientApp;
+			packageProductDependencies = (
+				A575ECFB2B13A261005FE430 /* SwiftyJSON */,
+			);
 			productName = PipedriveClient;
 			productReference = A5CF38712B0FCEC80063DA95 /* PipedriveClientApp.app */;
 			productType = "com.apple.product-type.application";
@@ -295,6 +431,9 @@
 				Base,
 			);
 			mainGroup = A5CF38682B0FCEC80063DA95;
+			packageReferences = (
+				A575ECFA2B13A261005FE430 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = A5CF38722B0FCEC80063DA95 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -312,6 +451,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5CF387C2B0FCECA0063DA95 /* Preview Assets.xcassets in Resources */,
+				A575ECC22B126933005FE430 /* Localizable.strings in Resources */,
 				A5CF38792B0FCECA0063DA95 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,8 +477,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A575ECB62B123626005FE430 /* PersonRow.swift in Sources */,
+				A575ECBF2B126624005FE430 /* ColorUtils.swift in Sources */,
+				A575ECD92B12A48C005FE430 /* APICallMetadata.swift in Sources */,
+				A575ECF92B139A6F005FE430 /* ApiMetaStorage.swift in Sources */,
+				A575ECCD2B129BB0005FE430 /* AppState.swift in Sources */,
+				A575ECDB2B12AB93005FE430 /* NetworkingHelpers.swift in Sources */,
+				A575EC4C2B0FF4EF005FE430 /* PeopleListScreen.swift in Sources */,
+				A575ECE72B1373D7005FE430 /* CancellableSet.swift in Sources */,
+				A575ECE52B1372DD005FE430 /* Store.swift in Sources */,
+				A575ECD22B129FEE005FE430 /* AppEnvironment.swift in Sources */,
+				A575ECED2B1381C3005FE430 /* CoreDataHelpers.swift in Sources */,
+				A575ED052B13D4F3005FE430 /* MockedData.swift in Sources */,
+				A575ED162B140899005FE430 /* db_model_v1.xcdatamodeld in Sources */,
+				A575ECA32B111D79005FE430 /* InitialsCircleComponent.swift in Sources */,
+				A575ECF62B138C6C005FE430 /* Models+CoreData.swift in Sources */,
+				A575ECB22B1227A8005FE430 /* PeopleOrderedListComponent.swift in Sources */,
+				A575ECA12B111D15005FE430 /* PersonDetailsScreen.swift in Sources */,
+				A575ECE92B13757C005FE430 /* LoadableObject.swift in Sources */,
+				A575ED002B13BECC005FE430 /* Interactors.swift in Sources */,
+				A575ECBC2B12652C005FE430 /* PersonalDetailComponent.swift in Sources */,
+				A575ECD42B12A2E7005FE430 /* PeopleWebRepository.swift in Sources */,
 				A5CF38772B0FCEC80063DA95 /* ContentView.swift in Sources */,
+				A575ECD72B12A320005FE430 /* WebRepository.swift in Sources */,
+				A575ECF42B138A60005FE430 /* LazyList.swift in Sources */,
+				A575ECB82B124EAD005FE430 /* WorkDataComponent.swift in Sources */,
+				A575ECBA2B1260E4005FE430 /* PersonalDetailsHeaderComponent.swift in Sources */,
+				A575ECDF2B136E50005FE430 /* PeopleDBRepository.swift in Sources */,
+				A575ECC62B126A31005FE430 /* Localizer.swift in Sources */,
+				A575ECD02B129EDB005FE430 /* DependencyInjector.swift in Sources */,
+				A575ED092B13E62C005FE430 /* Helpers.swift in Sources */,
+				A575ED102B13EE90005FE430 /* ActivityIndicatorView.swift in Sources */,
+				A575ECE32B1370AA005FE430 /* PeopleInteractor.swift in Sources */,
+				A575ECA52B1123AA005FE430 /* Person.swift in Sources */,
+				A575ED032B13C83F005FE430 /* RootViewAppearance.swift in Sources */,
+				A575ECE12B136E6C005FE430 /* DBRepository.swift in Sources */,
 				A5CF38752B0FCEC80063DA95 /* PipedriveClientApp.swift in Sources */,
+				A575ECF22B13858F005FE430 /* PersistentStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +521,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5CF38862B0FCECA0063DA95 /* PipedriveClientTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,8 +528,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5CF38922B0FCECA0063DA95 /* PipedriveClientUITestsLaunchTests.swift in Sources */,
-				A5CF38902B0FCECA0063DA95 /* PipedriveClientUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +545,17 @@
 			targetProxy = A5CF388C2B0FCECA0063DA95 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A575ECC42B126933005FE430 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A575ECC32B126933005FE430 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A5CF38932B0FCECA0063DA95 /* Debug */ = {
@@ -671,6 +854,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A575ECFA2B13A261005FE430 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A575ECFB2B13A261005FE430 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A575ECFA2B13A261005FE430 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		A575ED142B140899005FE430 /* db_model_v1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A575ED152B140899005FE430 /* db_model_v1.xcdatamodel */,
+			);
+			currentVersion = A575ED152B140899005FE430 /* db_model_v1.xcdatamodel */;
+			path = db_model_v1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A5CF38692B0FCEC80063DA95 /* Project object */;
 }

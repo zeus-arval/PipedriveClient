@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  PipedriveClientApp
+
+  Created by Артур Валдна on 25.11.2023.
+  
+*/
+
+"people.list.title" = "People";
+"person.details.contact.details.header" = "Contact Details";
+"person.details.contact.details.body.phone" = "phone";
+"person.details.contact.details.body.email" = "email";
+"person.details.title" = "Person";

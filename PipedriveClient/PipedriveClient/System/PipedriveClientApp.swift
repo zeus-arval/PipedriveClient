@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct PipedriveClientApp: App {
+    private let appEnvironment: AppEnvironment
+      
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(container: appEnvironment.container)
         }
+    }
+    
+    init() {
+        appEnvironment = AppEnvironment.bootstrap()
     }
 }

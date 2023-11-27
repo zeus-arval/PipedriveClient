@@ -8,16 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    private let container: DIContainer
+    
     var body: some View {
-        VStack {
-        }
+        PeopleListScreen()
+            .inject(container)
+    }
+    
+    init(container: DIContainer) {
+        self.container = container
     }
 }
 
 #if DEBUG
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(container: .preview)
     }
 }
 #endif

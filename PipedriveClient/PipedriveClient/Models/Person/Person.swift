@@ -102,7 +102,7 @@ struct PersonMapper{
                let name = item["name"].string ?? ""
                let firstName = item["first_name"].string ?? ""
                let lastName = item["last_name"].string ?? ""
-               let companyName = item["company_name"].string ?? ""
+               let companyName = item["org_name"].string ?? ""
                let email = item["email"][0]["value"].string ?? ""
                let phone = item["phone"][0]["value"].string ?? ""
 
